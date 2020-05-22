@@ -1,0 +1,27 @@
+{
+  "name": "drop-files",
+  "version": "1.0.0",
+  "description": "Node CLI program to bulk delete files from Dropbox that match a regex",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jmcelroy5/drop-files.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jmcelroy5/drop-files/issues"
+  },
+  "homepage": "https://github.com/jmcelroy5/drop-files#readme",
+  "dependencies": {
+    "dropbox": "^4.0.30",
+    "fs-extra": "^9.0.0",
+    "inquirer": "^7.1.0",
+    "isomorphic-fetch": "^2.2.1",
+    "lodash.chunk": "^4.2.0",
+    "open": "^7.0.4"
+  }
+}
